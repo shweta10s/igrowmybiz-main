@@ -22,13 +22,13 @@ const TeamCardComponent = [
     image: "Aniket-kalawat.jpg",
     position: "Full Stack Developer",
     expertise:
-      "Proficient in developing and maintaining web applications across the full stack, from crafting interactive front-end interfaces to optimizing back-end systems and database interactions.",
+      "Proficient in developing and maintaining web applications across the full stack, from crafting interactive front-end interfaces to optimizing back-end systems.",
   },  
   {
     image: "aniketp.jpg",
     position: "Full Stack Developer",
     expertise:
-      "Skilled in building comprehensive web solutions, including designing user-friendly interfaces and implementing robust server-side logic and database management.",
+      "Skilled in building comprehensive web solutions, including designing user-friendly interfaces and implementing robust server-side logic.",
   },
   {
     image: "aditi.jpg",
@@ -125,7 +125,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section className="py-10">
+      {/* <section className="py-10">
         <div className="w-4/5 mx-auto flex flex-col gap-4">
           <div>
             <h2 className="text-white font-semibold text-2xl lg:text-3xl text-center">
@@ -135,7 +135,7 @@ export default function Page() {
               Meet one the most talented minds in our office.
             </p>
           </div>
-          {/* <div className="flex flex-col gap-5 md:flex-row">
+          <div className="flex flex-col gap-5 md:flex-row">
             <FoundersCards
               image="adarsh_jatav_close.png"
               info="Aadarsh from Pachmarhi kept pursuing his passion for tech and content, which began during his exploration of digital marketing in the 11th grade. After several years of freelancing and numerous cold calls and emails, he found his specialization in building effective digital marketing strategies through content. Aadarsh founded Igrow with Sarfaraz, realizing that their expertise in content could significantly benefit brands in the realm of organic marketing"
@@ -154,9 +154,9 @@ export default function Page() {
               mail="sarfaraz@igrowmybiz.com"
               alt=""
             />
-          </div> */}
+          </div>
         </div>
-      </section>
+      </section> */}
       <section className="py-10 flex flex-col gap-5">
         <div className="w-4/5 mx-auto flex flex-col gap-4">
           <div>

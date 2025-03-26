@@ -73,6 +73,9 @@ export default function Testimonials() {
 
     return (
         <div className='w-full sm:w-4/5 relative'>
+           <h2 className="text-white font-semibold text-2xl lg:text-3xl text-center mb-10">
+                         Our Client's Review
+                       </h2>
             <div className='overflow-hidden'>
                 <div className='flex gap-10 px-[1.3rem] transition-all ease-in-out duration-500' style={{ transform: `translateX(-${CurrentSlide * 100}%)` }}>
                     {TestimonialsContent.map((item, index) => <div key={index} className='flex-shrink-0 flex-grow-0 w-full flex flex-col-reverse sm:flex-row justify-between items-center gap-0 md:gap-10 mb-5 sm:mb-0'>
